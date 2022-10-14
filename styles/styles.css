@@ -13,6 +13,7 @@ a {
 
 h1 {
   color: steelblue;
+  margin: 50px 0;
 }
 img {
   width: 800px;
@@ -34,3 +35,12 @@ footer {
   background-color: white;
   color: steelblue;
 }
+footer {
+  background-color: steelblue;
+  color: white;
+}
+
+footer p {
+  padding: 25px;
+}
+
