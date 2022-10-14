@@ -117,6 +117,8 @@ footer{
 .msg h2{
     background-color: #A42212 ;
     color: #edf2f4;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
 }
 
 .msg p{
@@ -160,8 +162,22 @@ footer .social img{
     padding-top: 15px;
 }
 
-.rivers-card, .camping-card, .rapids-card{
+.rivers-card{
     margin: 200px 0;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
+}
+
+.camping-card{
+    margin: 200px 0;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
+}
+
+.rapids-card{
+    margin:200px 0;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
 }
 
 .card-img {
