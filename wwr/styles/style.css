@@ -261,7 +261,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     display:grid;
-    grid-row: 1fr 1fr 1fr 1fr;
+    grid-column: 1fr 1fr 1fr 1fr;
 }
 
 footer a {
@@ -293,6 +293,107 @@ footer .social img{
     padding-top: 15px;
 }
 
+/*
+
+PAGE 2 CSS STUFF starting with HEROO section
+
+*/
+
+#heroo{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    width: 100%;
+}
+
+#heroo-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#heroo-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+
+}
+#heroo-img{
+    width: 100%;
+}
+#heroo-msg h1, #heroo-msg h4{
+    text-align: center;
+    max-width: 1600px;
+    margin:0 auto;
+    background-color: #A42212 ;
+    color: #edf2f4;
+
+}
+
+/*
+FAQ GRID
+*/
+.faq-grid{
+    background-color: #A42212 ;
+    color: #edf2f4;
+    font-family: 'Itim', 'Helvetica', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.girl-card{
+    margin: 50px 0;
+    width: 100%;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
+    grid-row:1/5;
+    grid-column: 1/5;
+    float: left;
+}
+
+.lunch-card{
+    margin: 50px 0;
+    width: 100%;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
+    /*grid-row:;*/
+    grid-column:1/5;
+}
+
+.snake-card{
+    margin:50px 0;
+    width: 100%;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size: 2em;
+    grid-row: 10/10;
+    grid-column: 1/5;
+}
+/*
+.rafting-card{
+    margin:200px 0;
+    width: 100%;
+    font-family: 'Changa One', 'Helvetica', sans-serif;
+    font-size:2em;
+    grid-row: 5/8;
+    grid-column: 2/7;
+    border: solid black;
+    box-shadow: 5px 5px 10px #6f7364; 
+
+}
+*/
+.card-img {
+    border: 10px solid black;
+    width:50%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
+
+}
+.faq-grid p{
+    float: left;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
