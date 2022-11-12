@@ -68,6 +68,7 @@ nav a{
     margin-top: 100px;
     text-align: center;
     opacity: .6;
+    
 }
 #hero-img{
     width: 100%;
@@ -79,6 +80,7 @@ nav a{
     background-color: #A42212 ;
     color: #edf2f4;
     opacity: .6;
+    float:bottom;
 }
 
 
@@ -104,6 +106,7 @@ nav a{
     margin:auto;
     background-color: #A42212 ;
     color: #edf2f4;
+    float: bottom;
 }
 
 
