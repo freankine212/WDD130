@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo&family=Grechen+Fuemen&family=Permanent+Marker&family=Roboto:wght@100&family=Vujahday+Script&display=swap');
+
+content{
+    max-width: 1600px;
+}
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #60935D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1{
+    margin:0;
+    color: #1b3022;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p{
+    margin:0;
+
+}
+
+header{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #bab700;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #815e5b;
+}
+nav a{
+    max-width: 1600px;
+    margin:0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f65713;
+    color: #1b3022;
+    padding: 35px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 80px;
+}
+/* Hero Section */
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100%px;
+    width: 100%;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    opacity: .6;
+}
+
+#hero-img{
+    width: 1600px;
+}
+
+/* Main Section */
+
+main{
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #815e5b;
+
+}
+.outdoors-pic{
+    margin: 50px 0;
+    width: 100%;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 2em;
+    grid-row: 2/3;
+    grid-column: 2/4
+}
+
+.last-outdoors{
+    margin: 50px 0;
+    width: 100%;
+    font-family: 'Grechen Fuemen', cursive;
+    grid-row: 2/3;
+    grid-column: 5/7;
+}
+
+/* Footer Section */
+footer{
+    background-color: #815e5b ;
+    color: #edf2f4;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer a {
+    background-color: #815e5b ;
+    color: #edf2f4;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #815e5b ;
+    color: #edf2f4;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+
+footer .social img{
+    padding-top: 15px;
+}

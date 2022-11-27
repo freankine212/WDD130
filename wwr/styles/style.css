@@ -12,7 +12,7 @@ body {
     color: #edf2f4;
     margin: 0;
     padding: 0;
-    font-family: changa-one, arial, sans-serif;
+    font-family: 'changa-one', arial, sans-serif;
 }
 h2{
     margin: 0;
@@ -67,9 +67,9 @@ nav a{
     grid-row: 1/2;
     margin-top: 100px;
     text-align: center;
-    opacity: .6;
-    
+    opacity: .6;    
 }
+
 #hero-img{
     width: 100%;
 }
