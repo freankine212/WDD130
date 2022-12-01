@@ -94,23 +94,29 @@ main{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #815e5b;
-
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.outdoors-pic{
+
+.outdoors-card{
     margin: 50px 0;
     width: 100%;
     font-family: 'Grechen Fuemen', cursive;
     font-size: 2em;
-    grid-row: 2/3;
-    grid-column: 2/4
+    grid-column: 1/4;
 }
 
-.last-outdoors{
+.last-card{
     margin: 50px 0;
     width: 100%;
     font-family: 'Grechen Fuemen', cursive;
-    grid-row: 2/3;
-    grid-column: 5/7;
+    font-size: 2em;
+    /*grid-row: 2/3;*/
+    grid-column: 2/4;
+}
+#h3{
+    margin:0;
+    grid-column: 1/4;
 }
 
 /* Footer Section */
