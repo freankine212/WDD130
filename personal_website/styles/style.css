@@ -254,6 +254,7 @@ h1{
     grid-row: 3/3;   
 }
 
+/*
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -295,3 +296,4 @@ h1{
         margin-top: 25px;
     }
 }
+*/
